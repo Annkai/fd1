@@ -1,0 +1,15 @@
+ .blue {
+     background: blue;
+     border: 1px dashed yellow;
+ }
+
+ .white {
+     background: white;
+   border: 2px solid red;
+ }
+
+ td {
+     width: calc(100vmin / 8);
+     height: calc(100vmin / 8);
+     border-radius: 50%;
+ }
