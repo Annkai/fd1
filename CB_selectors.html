@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> </title>
+    <style type="text/css">
+        div div div {
+            border: 1px solid red;
+            display: table-cell;
+            width: 8vw;
+            height: 8vw;
+            text-align: center;
+        }
+
+        div div div:first-child {
+            border: 0px;
+        }
+
+        div div div:last-child {
+            border: 0px;
+        }
+
+        div div:nth-of-type(1) div:nth-of-type(2):before {
+            content: "a";
+        }
+
+        div div:nth-of-type(1) div:nth-of-type(3):before {
+            content: "b";
+        }
+
+        div div:nth-of-type(1) div:nth-of-type(4):before {
+            content: "c";
+        }
+
+        div div:nth-of-type(1) div:nth-of-type(5):before {
+            content: "d";
+        }
+
+        div div:nth-of-type(1) div:nth-of-type(6):before {
+            content: "e";
+        }
+
+        div div:nth-of-type(1) div:nth-of-type(7):before {
+            content: "f";
+        }
+
+        div div:nth-of-type(1) div:nth-of-type(8):before {
+            content: "g";
+        }
+
+        div div:nth-of-type(1) div:nth-of-type(9):before {
+            content: "h";
+        }
+
+        div:nth-of-type(2) div:nth-of-type(1):before {
+            content: "1";
+        }
+
+        div:nth-of-type(3) div:nth-of-type(1):before {
+            content: "2";
+        }
+
+        div:nth-of-type(4) div:nth-of-type(1):before {
+            content: "3";
+        }
+
+        div:nth-of-type(5) div:nth-of-type(1):before {
+            content: "4";
+        }
+
+        div:nth-of-type(6) div:nth-of-type(1):before {
+            content: "5";
+        }
+
+        div:nth-of-type(7) div:nth-of-type(1):before {
+            content: "6";
+        }
+
+        div:nth-of-type(8) div:nth-of-type(1):before {
+            content: "7";
+        }
+
+        div:nth-of-type(9) div:nth-of-type(1):before {
+            content: "8";
+        }
+
+        div:nth-of-type(2) div:nth-of-type(10):before {
+            content: "1";
+        }
+
+        div:nth-of-type(3) div:nth-of-type(10):before {
+            content: "2";
+        }
+
+        div:nth-of-type(4) div:nth-of-type(10):before {
+            content: "3";
+        }
+
+        div:nth-of-type(5) div:nth-of-type(10):before {
+            content: "4";
+        }
+
+        div:nth-of-type(6) div:nth-of-type(10):before {
+            content: "5";
+        }
+
+        div:nth-of-type(7) div:nth-of-type(10):before {
+            content: "6";
+        }
+
+        div:nth-of-type(8) div:nth-of-type(10):before {
+            content: "7";
+        }
+
+        div:nth-of-type(9) div:nth-of-type(10):before {
+            content: "8";
+        }
+
+        div div:nth-of-type(10) div:nth-of-type(2):before {
+            content: "a";
+        }
+
+        div div:nth-of-type(10) div:nth-of-type(3):before {
+            content: "b";
+        }
+
+        div div:nth-of-type(10) div:nth-of-type(4):before {
+            content: "c";
+        }
+
+        div div:nth-of-type(10) div:nth-of-type(5):before {
+            content: "d";
+        }
+
+        div div:nth-of-type(10) div:nth-of-type(6):before {
+            content: "e";
+        }
+
+        div div:nth-of-type(10) div:nth-of-type(7):before {
+            content: "f";
+        }
+
+        div div:nth-of-type(10) div:nth-of-type(8):before {
+            content: "g";
+        }
+
+        div div:nth-of-type(10) div:nth-of-type(9):before {
+            content: "h";
+        }
+
+        div div:nth-child(2n+2) div:not(:last-child):nth-child(even) {
+            background-color: blue;
+        }
+
+        div div:nth-child(2n+3) div:not(:first-child):nth-child(odd) {
+            background-color: blue;
+
+        }
+
+        div div:nth-last-child(1) div:nth-child(-n+9):nth-child(n+1) {
+            background-color: white;
+            border: 0px;
+        }
+
+        div div:nth-child(1) div:nth-child(-n+9):nth-child(n+1) {
+            border: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+</html>
